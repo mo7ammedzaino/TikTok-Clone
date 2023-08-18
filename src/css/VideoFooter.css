@@ -14,15 +14,32 @@
   padding-bottom: 5px;
   font-size: 18px;
 }
-.videoFooter__record {
-  animation: spinTheRecord infinite 5s linear;
-  height: 50px;
-  filter: invert(1);
-}
 .videoFooter__text > p {
   padding-bottom: 10px;
   margin-left: 10px;
   font-size: 14px;
+}
+
+.videoFooter__icon {
+  position: absolute;
+}
+.videoFooter__ticker > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+.videoFooter__ticker > p {
+  padding-top: 7px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.videoFooter__record {
+  height: 50px;
+  filter: invert(1);
+  position: absolute;
+  bottom: -15px;
+  right: 12px;
+  animation: spinTheRecord infinite 5s linear;
 }
 
 @keyframes spinTheRecord {
